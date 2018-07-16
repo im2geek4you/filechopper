@@ -1,2 +1,2 @@
 # filechopper
-File splitter tool
+File Chopper  is a splitter tool based on provided header/tail byte sequences.
