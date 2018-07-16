@@ -147,7 +147,6 @@ namespace FileSplitter
 
             byte[] fileBytes = File.ReadAllBytes(settings.FileName);
 
-            //byte[] startpattern = new byte[] { 77, 84, 70, 87 };
             byte[] startpattern = settings.StartPatern;
             byte[] endpattern = settings.EndPatern;
 
@@ -314,7 +313,7 @@ namespace FileSplitter
                     break;
 
                 default:
-                    MessageBox.Show("unknown patern");
+                    MessageBox.Show("Unknown patern!");
                     break;
             }
 
